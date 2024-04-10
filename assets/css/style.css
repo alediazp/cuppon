@@ -26,6 +26,10 @@ font-size: 20px;
     font-weight: 300;
 }
 
+.precios{
+    text-align: end;
+}
+
 #formulario {
 background-color: #28a745;
 }
