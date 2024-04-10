@@ -1,0 +1,25 @@
+body{
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+.navbar{
+    background-color: #28A745;
+    color: white;    
+}
+
+.container{
+    text-align: left;
+}
+
+h5{
+    color: #212529;
+    text-size-adjust: 20px;
+}
+
+#formulario {
+    background-color: #28A745;
+}
+#formulario-txt{
+    width: 800px;
+}

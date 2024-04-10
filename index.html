@@ -1,96 +1,293 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--a continuación se inseerta enlace para origen de fuentes googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>CuponJose</title>
     <link
-      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/22ae6d249f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-    <!-- Example Code -->
 
-    <nav class="navbar navbar-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-white.png" width="86" />
+        </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler me-3"
           type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="offcanvas offcanvas-end text-bg-dark"
-          tabindex="-1"
-          id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-              Dark offcanvas
-            </h5>
-            <button
-              type="button"
-              class="btn-close btn-close-white"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex mt-3" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Subsidios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <!-- End Example Code -->
+    <section>
+      <div class="container m-auto my-4">
+        <div class="row">
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span
+                    ><!--apan tag more specific than div. whne is nedded to edit an element inside another group of elements-->
+                  </li>
+                </ul>
+              </div>
+              <!--end of first card Plumon coral fleece. reviewed until here-->
+            </div>
+          </div>
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-12 col-md-6 col-lg-4">
+            <div class="card m-2" style="width: 278">
+              <img
+                src="assets/img/cupon-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-light mb-3">
+                  Plumón Coral Fleece estampado en modelo y tamaño a elección
+                </h5>
+                <p class="card-text h6 fw-light">Plumones Manolino</p>
+                <p class="fw-light">
+                  <i class="fas fa-map-marker-alt fa-xs"></i>
+                  9191 Avenida Vitacura, Chile
+                </p>
+
+                <ul class="list-group list-group-flush text-right">
+                  <li
+                    class="list-group-item ms-auto fw-light gris py-0 pe-1 2 1 5 py-0 pe-1 2 1 5"
+                  >
+                    $45.990
+                    <span class="h5 fw-bold green ms-3">$22.990</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4" id="formulario">
+      <div class="container d-flex justify-content-center">
+        <form id="formulario-txt">
+          <div class="mb-3">
+            <input
+              type="text"
+              id="disabledTextInput"
+              class="form-control"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              id="disabledTextInput"
+              class="form-control"
+              placeholder="Correo"
+            />
+          </div>
+          <button type="submit" class="btn btn-light">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="text-center my-2">
+        <img src="assets/img/logo-black.png" width="82" alt="Logo" />
+        <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/f0ac91a190.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
