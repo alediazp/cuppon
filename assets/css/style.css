@@ -1,0 +1,65 @@
+body {
+font-family: Roboto
+}
+
+.navbar {
+background-color: #28a745;
+color: white;
+}
+
+.container {
+text-align: left;
+}
+
+h5 {
+color: #212529;
+font-weight: 300;
+font-size: 20px;
+}
+
+.card-body .card-text{
+    list-style-type: none;
+}
+
+.card-title{
+    color: #212529;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.fa-map-marker-alt{
+    font-size: 10px;
+    
+}
+
+.card-text .direccion{
+    font-size: 13px;
+}
+
+.precios{
+    text-align: end;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.precio1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.precio2{
+    font-size: 20px;
+    color: #28a745;
+    font-weight: 500;
+}
+
+#formulario {
+background-color: #28a745;
+}
+#formulario-txt {
+width: 800px;
+}
